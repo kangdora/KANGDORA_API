@@ -1,11 +1,11 @@
-package kr.kangdora.portfolio_site.controller;
+package me.kangdora.portfolio_site.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/cs")
+@RequestMapping("/api/lab")
 @RequiredArgsConstructor
-public class CsController {
+public class AILabController {
 }

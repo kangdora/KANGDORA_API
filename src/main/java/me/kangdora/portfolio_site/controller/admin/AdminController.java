@@ -1,4 +1,4 @@
-package kr.kangdora.portfolio_site.controller.admin;
+package me.kangdora.portfolio_site.controller.admin;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
