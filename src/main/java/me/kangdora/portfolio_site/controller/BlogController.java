@@ -13,10 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BlogController {
 
     @PostMapping("/post/{postId}")
-    public ResponseEntity<> post(@PathVariable int postId) {
-
+    public void post(@PathVariable int postId) {
     }
-
-    @PostMapping("/write")
 
 }
