@@ -1,4 +1,4 @@
-package me.kangdora.portfolio_site.controller;
+package me.kangdora.domain.ai.usage;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
