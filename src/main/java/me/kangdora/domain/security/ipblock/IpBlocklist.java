@@ -1,4 +1,4 @@
-﻿package me.kangdora.domain.security.ipblock;
+package me.kangdora.domain.security.ipblock;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

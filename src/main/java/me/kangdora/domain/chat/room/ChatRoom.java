@@ -1,4 +1,4 @@
-﻿package me.kangdora.domain.chat.room;
+package me.kangdora.domain.chat.room;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

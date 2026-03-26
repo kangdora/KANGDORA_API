@@ -1,4 +1,4 @@
-﻿package me.kangdora.domain.content.project;
+package me.kangdora.domain.content.project;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -38,7 +38,3 @@ public class Project {
     @Column(name = "updated_at", nullable = false)
     private LocalDateTime updatedAt;
 }
-
-
-
-

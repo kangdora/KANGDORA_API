@@ -1,4 +1,4 @@
-﻿package me.kangdora.domain.ai.usage;
+package me.kangdora.domain.ai.usage;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

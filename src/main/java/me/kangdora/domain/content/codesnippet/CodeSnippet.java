@@ -1,4 +1,4 @@
-﻿package me.kangdora.domain.content.codesnippet;
+package me.kangdora.domain.content.codesnippet;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
