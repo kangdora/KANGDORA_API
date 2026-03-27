@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 public class Post {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @Column(name = "type", nullable = false, length = 20)

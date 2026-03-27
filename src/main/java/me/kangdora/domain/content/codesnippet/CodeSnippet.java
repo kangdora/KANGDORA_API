@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class CodeSnippet {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @Column(name = "title", nullable = false, length = 255)

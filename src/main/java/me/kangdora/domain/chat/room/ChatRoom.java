@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class ChatRoom {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @Column(name = "title", length = 255)

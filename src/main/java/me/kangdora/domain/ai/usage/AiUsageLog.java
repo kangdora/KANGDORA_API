@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class AiUsageLog {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @Column(name = "feature", nullable = false, length = 100)

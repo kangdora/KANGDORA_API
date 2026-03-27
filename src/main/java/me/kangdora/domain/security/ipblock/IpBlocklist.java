@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class IpBlocklist {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @Column(name = "ip_hash", nullable = false, length = 255)
