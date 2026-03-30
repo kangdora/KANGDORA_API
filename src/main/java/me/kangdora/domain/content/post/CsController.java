@@ -1,11 +1,11 @@
-package me.kangdora.portfolio_site.controller.admin;
+package me.kangdora.domain.content.post;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/admin")
+@RequestMapping("/api/cs")
 @RequiredArgsConstructor
-public class AdminController {
+public class CsController {
 }

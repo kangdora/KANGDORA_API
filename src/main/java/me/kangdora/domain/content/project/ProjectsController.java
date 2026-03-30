@@ -1,6 +1,6 @@
-package me.kangdora.portfolio_site.controller;
+package me.kangdora.domain.content.project;
 
-import me.kangdora.portfolio_site.dto.ProjectSummeryDto;
+import me.kangdora.dto.ProjectSummeryDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
